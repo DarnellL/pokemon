@@ -1,13 +1,13 @@
 {
-  "name": "web-app",
+  "name": "pokemon",
   "version": "1.0.0",
-  "description": "A web app by Amar",
+  "description": "A web app by Darnell",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server --baseDir ./ --port 3000"
   },
-  "author": "Amar",
+  "author": "Darnell",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.11.2",
