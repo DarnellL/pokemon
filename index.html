@@ -8,13 +8,13 @@
     <link href="/src/styles/main.css" rel="stylesheet">
 </head>
 
-<body ng-cloak>
+<body ng-cloak ng-controller="gameController">
 <img src="http://www.popcults.com/wp-content/uploads/2016/03/Pokemon.png" alt="Pokemon Logo" class="pokemon-logo">
-<button>Start</button>
+<button ng-click="run()">Go</button>
 
 <div class="game-container">
     <div class="box"> 
-        <div class="trainer">Trainer 1 </div>
+        <div class="trainer">Trainer 1</div>
         <div class="pokemon">Pokemon 1</div>
     </div>
     <div class="game-info"> Game info </div>
